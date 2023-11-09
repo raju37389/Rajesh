@@ -1,0 +1,273 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg);
+background-repeat: no-repeat;
+transition-duration: 10s;
+background-size: cover;
+}
+
+.navbar{
+    height: 100px;
+    background-color:purple(223, 215, 207);
+    display: flex;
+    justify-content: space-between;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+
+    
+}
+.navbar a{
+    font-size: 23px;
+    text-decoration: none;  color:black;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function:ease-in;
+    border-color: rgb(255, 102, 0);
+    border-width: none;
+    border-width: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  
+}.navbar #one{
+    width: 320px;
+    font-size: 13px;
+    margin: 26px;
+    font-style:italic;
+   font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+    
+
+}.navbar #two{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}.navbar #three{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}.navbar #four{
+    font-size: 53px;
+    width: 220px;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif
+}.navbar:hover{
+    background-color: rgb(247, 189, 255);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 4px 4px 4px 4px rgb(133, 129, 125);
+}.navbar a:hover{
+    
+    color: blue;
+    font-size: 24px;
+    box-shadow: 2px 2px 4px 4px rgb(139, 135, 135);
+    
+    
+    text-decoration:none;
+    margin-left: 30px;
+}.navbar#one{
+    margin-left: 23px;
+}.navbar#four{
+    margin-left: 23px;
+}.main{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}.main div{
+    display: inline-block;
+    background-color:unset;
+   
+}.main1{
+    text-align: end;
+    width: 40%;
+
+}.main1 img{
+    border-radius:30%;
+    padding-right: 23px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+     
+   
+}.main1 img:hover{
+   margin-right: 29px;
+   transform: rotate(20deg);
+}.main2 h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+    transition-timing-function: ease-in;
+}
+.main2 h1:hover{
+    margin-left: 20px;
+}.main2{
+    width: 50%;
+    height: 300px;
+}.main2 button{
+    border: none;
+    color: mediumvioletred;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    border-radius: 50%;
+    
+    height: 25px;
+}
+.about{
+    height: 80px;
+    display: flex;
+    
+    
+    justify-content:flex-start;
+}.navbar #five  img{
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 10px;
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    
+
+}
+.main2 button:hover{
+   background-color: rgb(224, 134, 205);
+   color: black;
+   box-shadow: 2px 2px 4px 4px rgb(88, 86, 86);
+  
+}
+.navbar #five img:hover{
+    transform: rotate(180deg);
+
+}.about{
+    margin: 45px;
+    background-color:unset;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+}.about:hover{
+    margin-left: 20px;
+    font-size: 20px;
+   color: red;
+}.struct{
+    width: 80%;
+    background-color: blue;
+}.edu{
+    color: crimson;
+    margin-left: 23px;
+}.det{
+    font-size: 34px;
+}#er{
+  color: black;
+}#sk:hover{
+  margin-left: 33px;
+  margin-bottom: 10px;
+  background-image: url(https://w7.pngwing.com/pngs/478/306/png-transparent-soft-skills-technology-engineer-science-technology-electronics-label-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}.scard{
+    display: -webkit-inline-box;
+  
+    width:8% ;
+    text-align: center;
+    padding:9px;
+    background-color: rgb(212, 205, 195);
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 3px 3px;
+    margin-right: 3%;
+    margin-bottom: 23px;
+    margin-left: 30px;
+
+
+
+}.scard img{
+    padding: 2px;
+    border: 5px;
+    
+}.scard:hover{
+    scale: 85%;
+    background-color: rgb(57, 58, 58);
+}.proj{
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    background-color:brown (88, 86, 83);
+    border-radius: 5%;
+    margin-left: 20px;
+}.proj img{
+    border-color:black ;
+    border-style: solid;
+    border-radius: 10%;
+}.hi{
+    margin-left: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: light green;
+    
+}.proj:hover{
+    scale: 85%;
+    box-shadow: 2px 2px 3px  3px ;
+}.ab{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    padding:23px;
+    margin-bottom: 23px;
+}
+.info{
+    display: inline-block;
+}
+.portfoli{
+    
+position: relative;
+left: 30%;
+
+}
+.portfoli{
+    margin-left: 150px;
+    
+}
+.foot{
+    display:inline-block;
+}
+footer{
+    background-color: rgb(110, 205, 63);
+}.html:hover{
+    background-color: rgb(0, 145, 255);
+
+}.css:hover{
+    
+    background-image:url(https://t4.ftcdn.net/jpg/05/25/52/43/360_F_525524399_gpXezBAY1NMlNqRhNXcFUp7f4TuMpcrv.jpg) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    font-family: Arial, Helvetica, sans-serif;
+}.github:hover{
+
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668612073401-e5915182ae36?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}.java:hover{
+    background-size:cover;
+    background-image: url(https://plus.unsplash.com/premium_photo-1669223469755-434e0bb628fe?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-repeat: no-repeat;
+}.csharp:hover{
+background-image: url(https://media.istockphoto.com/id/1456756745/photo/landscape-and-pastoral.jpg?s=2048x2048&w=is&k=20&c=ogjRXYsbnLQuUkExsAY_PYwsVzr2Ovu2CuqHvIa7QxA=);
+background-size:cover;
+background-repeat:no-repeat ;
+}
+
